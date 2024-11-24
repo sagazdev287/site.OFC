@@ -1,0 +1,219 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro */
+}
+
+header {
+    background-color: #3f4cff; /* Tomate */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    background-color: #e6e6fa; /* Lavanda */
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.text {
+    max-width: 600px;
+
+}
+
+.text h2 {
+    color: #4b0082; /* Indigo */
+}
+
+.text p {
+    line-height: 1.6;
+}
+
+#portfolio {
+    background-color: #fffacd; /* Amarelo pálido */
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.portfolio-text {
+    max-width: 600px;
+}
+
+.portfolio-text h3 {
+    color: #4b0082; /* Indigo */
+}
+
+#contact {
+    background-color: #f5f5dc; /* Bege claro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff6347; /* Tomate */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4500; /* Laranja escuro */
+}
+
+footer {
+    background-color: #ff0000; /* Tomate */
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos para o botão */
+.custom-button {
+    background-color: #007bff; /* Azul brilhante */
+    color: white; /* Texto branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    cursor: pointer; /* Muda o cursor para uma mãozinha */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Azul escuro quando passa o mouse */
+    transform: translateY(-2px); /* Efeito de elevação */
+}
+
+.custom-button:active {
+    background-color: #004494; /* Azul ainda mais escuro quando clicado */
+    transform: translateY(0); /* Volta à posição original */
+}
+
+
+
+
+button.colorido {
+    background-color: #3498db; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 3px 24px; /* Espaçamento interno */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.colorido:hover {
+    background-color: #2980b9; /* Cor de fundo azul escuro ao passar o mouse */
+}
+
+button.colorido:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
+
+
+
+.notification {
+    background-color: #ffcc00; /* Amarelo */
+    color: #000;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #ff9900; /* Laranja */
+    border-radius: 5px;
+}
+
+
+
+
+.cookie-notice {
+    background-color: #f9edbe; /* Amarelo claro */
+    color: #333;
+    padding: 15px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #e0c200; /* Bordas amarelas */
+    border-radius: 5px;
+    z-index: 1000; /* Para garantir que fique em cima */
+    display: none; /* Oculta inicialmente */
+}
