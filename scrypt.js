@@ -57,4 +57,4 @@ window.confirm('Atençao ao aceitar os conteudos!')
 //abre uma opção para o usuario digiar
 //window.prompt('Digite seu nome:')
 
-window.document.write(window.document.URL)
+//window.document.write(window.document.URL)
