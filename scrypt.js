@@ -10,9 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-var nome = window.prompt('qual é seu nome ?')
-window.alert('prazer em te conhecer, '  + nome +'!!')
-
+// var nome = window.prompt('qual é seu nome ?')
+// window.alert('prazer em te conhecer, '  + nome +'!!')
 
 // Alerta ao carregar a página
 window.onload = function() {
@@ -51,10 +50,10 @@ window.onload = function() {
         document.getElementById('cookie-notice').style.display = 'none'; // Oculta o aviso
     };
 };
-//confirmção para aceitar ou cancelar
-window.confirm('Atençao ao aceitar os conteudos!')
+// confirmção para aceitar ou cancelar
+// window.confirm('Atençao ao aceitar os conteudos!')
 
-//abre uma opção para o usuario digiar
-//window.prompt('Digite seu nome:')
+// abre uma opção para o usuario digiar
+// window.prompt('Digite seu nome:')
 
-//window.document.write(window.document.URL)
+// window.document.write(window.document.URL)
