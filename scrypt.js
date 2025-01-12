@@ -37,7 +37,7 @@ function checkCookie() {
 // Ao carregar a página
 window.onload = function() {
     // Exibe o alerta de IP
-   // alert("⚠️ Seu IP está sendo monitorado. Qualquer tentativa de invasão resultará em graves consequências!");
+    alert("⚠️ Seu IP está sendo monitorado. Qualquer tentativa de invasão resultará em graves consequências!");
 
     // Verifica o consentimento do cookie
     if (!checkCookie()) {
