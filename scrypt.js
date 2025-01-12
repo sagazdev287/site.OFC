@@ -57,3 +57,4 @@ window.onload = function() {
 // window.prompt('Digite seu nome:')
 
 // window.document.write(window.document.URL)
+window.document.write(window.navigator.appName)
